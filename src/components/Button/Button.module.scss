@@ -1,0 +1,43 @@
+.button {
+  position: relative;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.withPrefixPostfix {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 1rem;
+  }
+}
+
+.textWithIcon {
+  text-align: left;
+}
+
+.primary {
+  background-color: #4ca8a9;
+  color: #ffffff;
+  &:disabled {
+    background-color: #4ca8a9;
+    opacity: 0.5;
+  }
+}
+
+.secondary {
+  background-color: #ffffff;
+  color: #1b1b1b;
+  border: 1px solid #4ca8a9;
+}
