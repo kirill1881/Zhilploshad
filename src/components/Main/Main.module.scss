@@ -1,0 +1,41 @@
+figure,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  max-width: 805px;
+}
+
+.imageBlock {
+  max-width: 370px;
+  margin-right: 25px;
+}
+
+.offlineAndOnline {
+  font-size: 20px;
+  font-weight: 700;
+  color: #bdbdbd;
+}
+
+.textColor {
+  color: #4ca8a9;
+}
+
+.infoText {
+  font-weight: 600;
+  font-size: 90px;
+}
+
+.textDescription {
+  margin-top: 24px;
+  font-size: 24px;
+  max-width: 705px;
+}
