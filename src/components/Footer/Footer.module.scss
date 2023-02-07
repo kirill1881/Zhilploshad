@@ -1,3 +1,7 @@
+ul {
+  padding-left: 0;
+}
+
 li {
   list-style-type: none;
 }
@@ -5,6 +9,11 @@ li {
 a {
   text-decoration: none;
   color: #f6f6f6;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
 }
 
 .wrapper {
@@ -53,4 +62,13 @@ a {
 
 .contactBlock {
   font-size: 14px;
+}
+
+.adress {
+  margin: 10px 0;
+}
+
+.offeAgreement {
+  color: #6e6e6e;
+  margin-bottom: 24px;
 }

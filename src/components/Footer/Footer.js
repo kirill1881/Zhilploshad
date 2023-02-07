@@ -10,7 +10,9 @@ export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <ul>
-        Договор публичной оферты
+        <a className={styles.offeAgreement} href="#">
+          Договор публичной оферты
+        </a>
         <li>
           <a href="#">Курсы</a>
         </li>
@@ -59,7 +61,7 @@ export const Footer = () => {
           исполнительным комитетом
         </p>
 
-        <p>
+        <p className={styles.adress}>
           Адрес: 220035, Республика Беларусь, г. Минск, ул. Сурганова, д. 43,
           оф. 802 Режим работы: понедельник - пятница с 10:00 до 19:00
         </p>

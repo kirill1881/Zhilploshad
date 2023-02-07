@@ -23,7 +23,7 @@ export const Main = () => {
           <span className={styles.textColor}>
             бесплатную консультацию с ментором
           </span>{" "}
-          школы Dev Place, задай интересующие тебя вопросы и начни развиваться в
+          школы Dev Place, задай интересующие тебя вопросы и начни развиваться в{" "}
           <strong>самом перспективном направлении 2023 года</strong>
         </p>
         <Button color="secondary" className={styles.btn}>
