@@ -1,0 +1,33 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(3, 22, 22, 0.76);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.form {
+  position: relative;
+  width: 531px;
+  height: 482px;
+  background: #f6f6f6;
+  padding: 20px;
+}
+
+.iconClose {
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: calc(30px + (40 - 27) * ((100vw - 320px) / (1600 - 320)));
+  font-weight: 600;
+  text-align: center;
+  margin-top: 17px;
+}

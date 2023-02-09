@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as Star } from "../../Shared/img/burst-pucker.svg";
+import { ReactComponent as Line } from "../../Shared/img/line.svg";
 import imgOne from "../../Shared/img/imgOne.png";
 import { Button } from "../Button/Button";
 import styles from "./Main.module.scss";
@@ -13,6 +14,9 @@ export const Main = () => {
           выбирай какой формат тебе нужен
         </p>
         <h1 className={styles.infoText}>
+          <div className={styles.linkContainer}>
+            <Line />
+          </div>
           <div>
             IT – это <span className={styles.textColor}>просто</span>,
           </div>
@@ -30,9 +34,7 @@ export const Main = () => {
           Успей записаться
         </Button>
       </div>
-      <figure className={styles.imageBlock}>
-        <img src={imgOne} alt="войти в IT" />
-      </figure>
+      <div className={styles.imageBlock} />
     </main>
   );
 };

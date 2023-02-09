@@ -6,23 +6,44 @@ h1 {
 }
 
 .main {
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
-  padding: 0 60px 0 75px;
+  margin-bottom: 5%;
+  padding: 0 3% 0 6%;
+
+  @media (max-width: 605px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3% 0 3%;
+  }
 }
 
 .textContainer {
-  max-width: 805px;
+  max-width: 70%;
+
+  @media (max-width: 605px) {
+    max-width: 100%;
+  }
 }
 
 .imageBlock {
-  max-width: 370px;
-  margin-right: 25px;
+  max-width: 450px;
+  width: 100%;
+  background-image: url("../../Shared/img/imgOne.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (max-width: 605px) {
+    margin-top: 10px;
+    background-position: center;
+    height: 300px;
+  }
 }
 
 .offlineAndOnline {
-  font-size: 20px;
+  font-size: calc(10px + (20 - 9) * ((100vw - 320px) / (1600 - 320)));
   font-weight: 700;
   color: #bdbdbd;
 }
@@ -33,22 +54,31 @@ h1 {
 
 .star {
   transform: translateY(-40px);
+
+  @media (max-width: 976px) {
+    transform: translateY(-20px) scale(0.8);
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .infoText {
   font-weight: 600;
-  font-size: 90px;
+  font-size: calc(40px + (90 - 25) * ((100vw - 320px) / (1600 - 320)));
+  line-height: 1;
 }
 
 .textDescription {
   margin-top: 24px;
-  font-size: 24px;
-  max-width: 705px;
+  font-size: calc(10px + (24 - 5) * ((100vw - 320px) / (1600 - 320)));
+  max-width: 95%;
 }
 
 .btn {
   margin-top: 40px;
-  padding: 18px 73px;
+  padding: 2.3% 10%;
   font-family: gilroy-semiBold, sans-serif;
   font-size: 20px;
   line-height: 20px;
@@ -75,5 +105,39 @@ h1 {
       border: 1px solid #4ca8a9;
       border-radius: 50px;
     }
+  }
+}
+
+.linkContainer {
+  max-width: 40vw;
+  width: 100%;
+  max-height: 66px;
+  position: absolute;
+  right: 10%;
+  top: 0;
+
+  @media (max-width: 1100px) {
+    transform: scale(0.9);
+  }
+
+  @media (max-width: 1005px) {
+    transform: scale(0.8);
+  }
+
+  @media (max-width: 900px) {
+    transform: scale(0.7);
+  }
+
+  @media (max-width: 822px) {
+    transform: scale(0.6);
+    right: 5%;
+  }
+  @media (max-width: 605px) {
+    transform: scale(1) translateY(-50px);
+  }
+
+  @media (max-width: 320px) {
+    transform: scale(1.7) translateY(-30px);
+    right: 20%;
   }
 }

@@ -10,11 +10,15 @@ export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <ul>
-        <a className={styles.offeAgreement} href="#">
-          Договор публичной оферты
-        </a>
         <li>
-          <a href="#">Курсы</a>
+          <a className={styles.offeAgreement} href="#">
+            Договор публичной оферты
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <strong>Курсы</strong>
+          </a>
         </li>
         <li>
           <a href="#">Факультет разработки на Java </a>
@@ -32,7 +36,9 @@ export const Footer = () => {
           <a href="#">Факультет Тестирования ПО</a>
         </li>
         <li>
-          <a href="#">Преподаватели</a>
+          <a href="#">
+            <strong>Преподаватели</strong>
+          </a>
         </li>
       </ul>
       <div className={styles.socialLink}>
