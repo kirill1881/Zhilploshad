@@ -1,0 +1,24 @@
+.fieldset {
+  position: relative;
+  border-color: #4ca8a9;
+  border-radius: 12px;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+}
+.legend {
+  margin: 0 30px;
+  background: transparent;
+}
+
+.input {
+  position: absolute;
+  background: transparent;
+  border-radius: 12px;
+  top: -10px;
+  width: 100%;
+  height: 35px;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+}
