@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as Star } from "../../Shared/img/burst-pucker.svg";
 import { ReactComponent as Line } from "../../Shared/img/line.svg";
-import imgOne from "../../Shared/img/imgOne.png";
 import { Button } from "../Button/Button";
 import styles from "./Main.module.scss";
+import { Modal } from "../Modal/Modal";
 
 export const Main = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <main className={styles.main}>
       <div className={styles.textContainer}>
@@ -30,11 +35,16 @@ export const Main = () => {
           школы Dev Place, задай интересующие тебя вопросы и начни развиваться в{" "}
           <strong>самом перспективном направлении 2023 года</strong>
         </p>
-        <Button color="secondary" className={styles.btn}>
+        <Button
+          onClick={handleOpenModal}
+          color="secondary"
+          className={styles.btn}
+        >
           Успей записаться
         </Button>
       </div>
       <div className={styles.imageBlock} />
+      {isOpen && <Modal closeModal={handleOpenModal} />}
     </main>
   );
 };
