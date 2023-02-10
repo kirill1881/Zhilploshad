@@ -9,7 +9,7 @@ import styles from "./Footer.module.scss";
 export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <ul>
+      <ul className={styles.faculty}>
         <li>
           <a className={styles.offeAgreement} href="#">
             Договор публичной оферты
@@ -60,7 +60,7 @@ export const Footer = () => {
         <span>© 2023 Все права защищены.</span>
       </div>
       <div className={styles.contactBlock}>
-        <h2>Контакты</h2>
+        <h2 className={styles.contact}>Контакты</h2>
         <p>
           ООО "Буизнес Кирилла" | УНП 1234567890 Свидетельство о государственной
           регистрации № 692033963 от 29.05.2020 выдано Узденским районным

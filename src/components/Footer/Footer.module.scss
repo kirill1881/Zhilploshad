@@ -19,16 +19,16 @@ a {
   color: #f6f6f6;
 }
 
-h2 {
+.contact {
   margin: 0 0 10px 0;
   font-size: 40px;
 
-  @media (max-width: 1201px) {
+  @media (max-width: 1000px) {
     font-size: 35px;
   }
 
-  @media (max-width: 1046px) {
-    font-size: 25px;
+  @media (max-width: 951px) {
+    font-size: 30px;
   }
 }
 
@@ -51,6 +51,22 @@ h2 {
   @media (max-width: 1001px) {
     padding: 10px 35px 20px 30px;
   }
+  @media (max-width: 911px) {
+    grid-template-columns: 210px 45px 250px 1fr;
+    max-height: 350px;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr 45px 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 450px;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+    max-height: 100%;
+    position: relative;
+  }
 }
 
 .socialLink {
@@ -64,6 +80,12 @@ h2 {
       fill: #4ca8a9;
     }
   }
+
+  @media (max-width: 600px) {
+    order: -3;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .logo {
@@ -73,6 +95,10 @@ h2 {
   @media (max-width: 1201px) {
     transform: scale(0.9);
   }
+
+  @media (max-width: 951px) {
+    transform: scale(0.7);
+  }
 }
 
 .logoBlock {
@@ -80,12 +106,36 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-height: 298px;
   border-left: 1px solid #232323;
   border-right: 1px solid #232323;
   margin-right: 43px;
   span {
     font-size: 12px;
     margin-top: 43px;
+
+    @media (max-width: 951px) {
+      margin-top: 23px;
+    }
+    @media (max-width: 600px) {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  @media (max-width: 600px) {
+    display: block;
+  }
+
+  @media (max-width: 600px) {
+    border-left: none;
+    border-right: none;
+    margin-right: 0;
+  }
+
+  @media (max-width: 600px) {
+    order: -4;
   }
 }
 
@@ -95,6 +145,13 @@ h2 {
 
 .contactBlock {
   font-size: 14px;
+
+  @media (max-width: 951px) {
+    font-size: 13px;
+  }
+  @media (max-width: 600px) {
+    margin-bottom: 30px;
+  }
 }
 
 .adress {
@@ -104,4 +161,16 @@ h2 {
 .offeAgreement {
   color: #6e6e6e;
   margin-bottom: 24px;
+}
+
+.faculty {
+  li {
+    @media (max-width: 951px) {
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      order: 2;
+    }
+  }
 }
