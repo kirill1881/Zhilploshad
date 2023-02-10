@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url('./Shared/fonts/Gilroy-Medium.ttf') format('ttf');
+  src: url('./Shared/fonts/Gilroy-Medium.woff') format('woff');
+  src: url('./Shared/fonts/Gilroy-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+
 body {
   margin: 0;
   padding: 0;
   background: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /*// font-family: gilroy-regular, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,4 +27,8 @@ code {
 
 .noScroll {
   overflow: hidden;
+}
+
+#root {
+  font-family: 'gilroy-medium', sans-serif;
 }
