@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c33a29-7221-4422-ba84-8958cbcb9194" name="Changes" comment="new functional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/input.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/IT/dp-online/dp",
+    "last_opened_file_path": "D:/IT/dp-online/card",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +75,8 @@
       <workItem from="1675873544681" duration="6236000" />
       <workItem from="1675919259350" duration="1808000" />
       <workItem from="1675998120580" duration="3967000" />
-      <workItem from="1676051056102" duration="3258000" />
+      <workItem from="1676051056102" duration="3435000" />
+      <workItem from="1676094658466" duration="3659000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675774558645</created>
@@ -136,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676054523276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new functional">
+      <created>1676054698205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676054698205</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

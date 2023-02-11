@@ -99,8 +99,14 @@ a {
 
   @media (max-width: 500px) {
     position: absolute;
-    right: 20px;
+    right: 80px;
     top: -60px;
+  }
+  @media (max-width: 500px) {
+    right: 40px;
+  }
+  @media (max-width: 360px) {
+    right: 20px;
   }
 }
 
@@ -114,6 +120,13 @@ a {
 
   @media (max-width: 951px) {
     transform: scale(0.7);
+  }
+  @media (max-width: 500px) {
+    transform: scale(1);
+    margin-left: 30px;
+  }
+  @media (max-width: 360px) {
+    margin-left: 10px;
   }
 }
 

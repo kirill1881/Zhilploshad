@@ -7,6 +7,7 @@ import { CheckBox } from "../CheckBox/CheckBox";
 import styles from "./Modal.module.scss";
 import { Button } from "../Button/Button";
 import { validateFormData } from "../helpers/validateFormData";
+import { classNames } from "../../Shared/helpers/classNames";
 
 export const Modal = ({ closeModal }) => {
   const [name, setName] = useState("");
@@ -22,7 +23,7 @@ export const Modal = ({ closeModal }) => {
       const formData = new FormData();
       formData.append("name", name);
       formData.append("contact", phone);
-      formData.append("comment", "");
+      formData.append("comment", "Запись на индивидуальную консультацию");
       setIsDisabled(true);
       const data = await fetch("http://178.172.138.15:8089/clients", {
         method: "POST",
@@ -81,33 +82,44 @@ export const Modal = ({ closeModal }) => {
         <h2 className={styles.title}>
           Запишись и измени свою жизнь прямо сейчас
         </h2>
-        <Stars />
-        <Input
-          type="text"
-          legend="Имя*"
-          placeholder="Введите ваше имя"
-          value={name}
-          onChange={setName}
-        />
-        <InputPhone
-          type="tel"
-          legend="Номер телефона*"
-          value={phone}
-          onChange={setPhone}
-          placeholder="375 (xx) xxx xx xx"
-        />
-        <CheckBox id="checkbox" checked={checkbox} onChange={setCheckbox}>
-          Я ознакомился с <a href="#>"> договором оферты</a> и согласен на
-          обработку персональных данных
-        </CheckBox>
-        <Button
-          color="primary"
-          className={styles.btnSubmit}
-          disabled={isDisabled}
-          type="submit"
-        >
-          Записаться
-        </Button>
+        <Stars className={styles.starsRight} />
+        <div className={styles.inputContainer}>
+          <Input
+            type="text"
+            legend="Имя*"
+            placeholder="Введите ваше имя"
+            value={name}
+            onChange={setName}
+          />
+          <InputPhone
+            type="tel"
+            legend="Номер телефона*"
+            value={phone}
+            onChange={setPhone}
+            placeholder="375 (xx) xxx xx xx"
+          />
+          <p
+            className={classNames({
+              [styles.message]: true,
+              [styles.error]: messages.isError,
+              [styles.success]: !messages.isError,
+            })}
+          >
+            {messages.text && messages.text}
+          </p>
+          <CheckBox
+            className={styles.checkBox}
+            id="checkbox"
+            checked={checkbox}
+            onChange={setCheckbox}
+          >
+            Я ознакомился с <a href="#>"> договором оферты</a> и согласен на
+            обработку персональных данных
+          </CheckBox>
+          <Button color="primary" disabled={isDisabled} type="submit">
+            Записаться
+          </Button>
+        </div>
       </form>
     </div>
   );
