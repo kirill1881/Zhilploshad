@@ -42,7 +42,7 @@ export const Footer = () => {
         </li>
       </ul>
       <div className={styles.socialLink}>
-        <a href="/https://www.instagram.com/dev_place_/">
+        <a href="https://www.instagram.com/dev_place_/">
           <Instagram />
         </a>
         <a href="/">
