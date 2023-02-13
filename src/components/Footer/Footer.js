@@ -16,27 +16,25 @@ export const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://devplace.by/courses">
             <strong>Курсы</strong>
           </a>
         </li>
         <li>
-          <a href="#">Факультет разработки на Java </a>
+          <a href="https://devplace.by/java">Факультет разработки на Java </a>
         </li>
         <li>
-          <a href="#">Факультет разработки на Python</a>
+          <a href="https://devplace.by/python">Факультет разработки на Python</a>
+        </li>
+
+        <li>
+          <a href="https://devplace.by/frontend">Факультет Frontend</a>
         </li>
         <li>
-          <a href="#">Факультет разработки на Python</a>
+          <a href="https://devplace.by/software-testing">Факультет Тестирования ПО</a>
         </li>
         <li>
-          <a href="#">Факультет Frontend</a>
-        </li>
-        <li>
-          <a href="#">Факультет Тестирования ПО</a>
-        </li>
-        <li>
-          <a href="#">
+          <a href="https://devplace.by/teachers">
             <strong>Преподаватели</strong>
           </a>
         </li>
