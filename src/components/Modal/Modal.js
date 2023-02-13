@@ -25,7 +25,7 @@ export const Modal = ({ closeModal }) => {
       formData.append("contact", phone);
       formData.append("comment", "Запись на индивидуальную консультацию");
       setIsDisabled(true);
-      const data = await fetch("https://volozhinlen.by:8089/clients", {
+      const data = await fetch("https://volozhinlen.by/clients", {
         method: "POST",
         body: formData,
       });
