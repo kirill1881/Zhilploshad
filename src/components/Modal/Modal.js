@@ -113,7 +113,7 @@ export const Modal = ({ closeModal }) => {
             checked={checkbox}
             onChange={setCheckbox}
           >
-            Я ознакомился с <a href="#>"> договором оферты</a> и согласен на
+            Я ознакомился с <a href="https://drive.google.com/file/d/1gaL6ovq_u0yXfVps3yJsmGEMaDt2--Qf/view?usp=sharing"> договором оферты</a> и согласен на
             обработку персональных данных
           </CheckBox>
           <Button color="primary" disabled={isDisabled} type="submit">
