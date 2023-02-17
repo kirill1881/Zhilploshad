@@ -23,7 +23,7 @@ export const Header = () => {
           +375 (29) 28-49-123
         </a>
         <div className={styles.social}>
-          <a href="/">
+          <a href="https://www.instagram.com/dev_place_/">
             <Instagram />
           </a>
           <a href="/">
