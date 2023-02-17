@@ -19,8 +19,8 @@ export const Header = () => {
     <header className={styles.header}>
       <Logo className={styles.logo} />
       <div className={styles.wrapper}>
-        <a href={`tel: +375290000000`} className={styles.headerTel}>
-          +375 (29) 000-00-00
+        <a href={`tel: +375292849123`} className={styles.headerTel}>
+          +375 (29) 28-49-123
         </a>
         <div className={styles.social}>
           <a href="/">

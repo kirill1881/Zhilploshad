@@ -21,7 +21,7 @@ export const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="devplace.by/java">Факультет разработки на Java </a>
+          <a href="https://devplace.by/java">Факультет разработки на Java </a>
         </li>
         <li>
           <a href="https://devplace.by/python">Факультет разработки на Python</a>
