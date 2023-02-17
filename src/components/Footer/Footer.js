@@ -29,11 +29,16 @@ export const Footer = () => {
           <a href="https://drive.google.com/file/d/13bTJn0_Q1mRVZ3Hi3urYa7-75JFLvMPU/view?usp=sharing">
             Факультет разработки на Python
           </a>
-        <li>
-          <a href="https://drive.google.com/file/d/1VuTdEtB1JE77RL-e3lBe31865e7SdqI4/view?usp=sharing">Факультет Frontend</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/112cSDgS1T2Qz5gBoqdZwkBgiHgzsWWkh/view?usp=sharing">Факультет Тестирования ПО</a>
+          <a href="https://drive.google.com/file/d/1VuTdEtB1JE77RL-e3lBe31865e7SdqI4/view?usp=sharing">
+            Факультет Frontend
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/112cSDgS1T2Qz5gBoqdZwkBgiHgzsWWkh/view?usp=sharing">
+            Факультет Тестирования ПО
+          </a>
         </li>
         <li>
           <a href="https://devplace.by/teachers">
