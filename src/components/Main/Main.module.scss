@@ -80,7 +80,7 @@ h1 {
 
 .textDescription {
   margin-top: 24px;
-  font-size: calc(10px + (24 - 5) * ((100vw - 320px) / (1600 - 320)));
+  font-size: calc(20px + (24 - 5) * ((100vw - 320px) / (1600 - 320)));
   max-width: 95%;
 
   @media (min-width: 1260px) {
