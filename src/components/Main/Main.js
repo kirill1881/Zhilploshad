@@ -30,7 +30,7 @@ export const Main = () => {
         <p className={styles.textDescription}>
           Запишись на{" "}
           <span className={styles.textColor}>
-            бесплатную консультацию с ментором
+            индивидуальное беспалтное занятие с ментором
           </span>{" "}
           школы Dev Place, задай интересующие тебя вопросы и начни развиваться в{" "}
           <strong>самом перспективном направлении 2023 года</strong>
