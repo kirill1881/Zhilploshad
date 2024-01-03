@@ -23,14 +23,14 @@ export const Main = () => {
 
           </div>
           <div>
-            Недвидимость нужна всем <span className={styles.textColor}>всем</span>,
+            Недвидимость нужна <span className={styles.textColor}>всем</span>,
           </div>
-          хватит думать <Star className={styles.star} />
+          пора решаться! <Star className={styles.star} />
         </h1>
         <p className={styles.textDescription}>
-          Запишись на{" "}
+          Запишитесь на{" "}
           <span className={styles.textColor}>
-            индивидуальную беспалтную консультациб с риелтором
+            индивидуальную беспалтную консультацию с риелтором
           </span>{" "}
           агенства ЖИЛПЛОЩАДЬ, задайте интересующие вас вопросы и мы подберем вам недвижимость{" "}
           <strong>либо поможем выгодно продать вашу!</strong>
