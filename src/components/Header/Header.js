@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ReactComponent as Logo } from "../../Shared/img/logo.svg";
+import { ReactComponent as Logo } from "../../Shared/img/logo-_5_.svg";
 import { ReactComponent as Instagram } from "../../Shared/img/instagram.svg";
 import { ReactComponent as Facebook } from "../../Shared/img/faceboock.svg";
 import { ReactComponent as Telegram } from "../../Shared/img/telegram.svg";

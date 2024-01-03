@@ -3,7 +3,7 @@ import { ReactComponent as Instagram } from "../../Shared/img/instagram.svg";
 import { ReactComponent as Facebook } from "../../Shared/img/faceboock.svg";
 import { ReactComponent as Telegram } from "../../Shared/img/telegram.svg";
 import { ReactComponent as TikTok } from "../../Shared/img/tik-tok.svg";
-import { ReactComponent as Logo } from "../../Shared/img/logo.svg";
+import { ReactComponent as Logo } from "../../Shared/img/logo-_5_.svg";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
@@ -15,36 +15,7 @@ export const Footer = () => {
             Договор публичной оферты
           </a>
         </li>
-        <li>
-          <a href="https://devplace.by/courses">
-            <strong>Курсы</strong>
-          </a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/1ExEwCJwPkRsIRXXE5Bt6-d8YYQ__KBfW/view?usp=sharing">
-            Факультет разработки на Java{" "}
-          </a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/13bTJn0_Q1mRVZ3Hi3urYa7-75JFLvMPU/view?usp=sharing">
-            Факультет разработки на Python
-          </a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/1VuTdEtB1JE77RL-e3lBe31865e7SdqI4/view?usp=sharing">
-            Факультет Frontend
-          </a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/112cSDgS1T2Qz5gBoqdZwkBgiHgzsWWkh/view?usp=sharing">
-            Факультет Тестирования ПО
-          </a>
-        </li>
-        <li>
-          <a href="https://devplace.by/teachers">
-            <strong>Преподаватели</strong>
-          </a>
-        </li>
+
       </ul>
       <div className={styles.socialLink}>
         <a href="https://www.instagram.com/dev_place_/">
@@ -67,7 +38,7 @@ export const Footer = () => {
       <div className={styles.contactBlock}>
         <h2 className={styles.contact}>Контакты</h2>
         <p>
-          ООО "Девплейс" город Минск
+          ООО "Жилплощадь" город Гродно
         </p>
         {/*ООО "Буизнес Кирилла" | УНП 1234567890 Свидетельство о государственной
         регистрации № 692033963 от 29.05.2020 выдано Узденским районным

@@ -20,20 +20,20 @@ export const Main = () => {
         </p>
         <h1 className={styles.infoText}>
           <div className={styles.linkContainer}>
-            <Line />
+
           </div>
           <div>
-            IT – это <span className={styles.textColor}>просто</span>,
+            Недвидимость нужна всем <span className={styles.textColor}>всем</span>,
           </div>
           хватит думать <Star className={styles.star} />
         </h1>
         <p className={styles.textDescription}>
           Запишись на{" "}
           <span className={styles.textColor}>
-            индивидуальное беспалтное занятие с ментором
+            индивидуальную беспалтную консультациб с риелтором
           </span>{" "}
-          школы Dev Place, задай интересующие тебя вопросы и начни развиваться в{" "}
-          <strong>самом перспективном направлении 2023 года</strong>
+          агенства ЖИЛПЛОЩАДЬ, задайте интересующие вас вопросы и мы подберем вам недвижимость{" "}
+          <strong>либо поможем выгодно продать вашу!</strong>
         </p>
         <Button
           onClick={handleOpenModal}
